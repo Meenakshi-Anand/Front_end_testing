@@ -5,7 +5,7 @@
   "main": "sum.js",
   "scripts": {
     "test": "jest",
-    "test": "jest --watch"
+    "test_watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,8 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^23.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "save": "^2.3.2"
   }
 }

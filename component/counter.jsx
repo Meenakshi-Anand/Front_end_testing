@@ -4,7 +4,7 @@ class Counter extends Component {
   constructor(props){
     super(props);
     this.state = {count:0};
-    this.add = this.add.bind(this);
+    this.add1 = this.add1.bind(this);
   }
 add1(){
   this.setState(state => {
