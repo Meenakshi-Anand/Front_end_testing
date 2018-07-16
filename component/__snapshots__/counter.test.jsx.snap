@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the initial snapshot 1`] = `
+<div>
+  <p>
+    Count: 
+    0
+  </p>
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
