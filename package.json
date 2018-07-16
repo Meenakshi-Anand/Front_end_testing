@@ -1,0 +1,16 @@
+{
+  "name": "front_end_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.1",
+    "save": "^2.3.2"
+  }
+}
