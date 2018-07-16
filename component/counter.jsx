@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-
+import Foo from './foo';
 class Counter extends Component {
   constructor(props){
     super(props);
     this.state = {count:0};
     this.add1 = this.add1.bind(this);
+    this.makeFoo = this.makeFoo.bind(this);
   }
 add1(){
   this.setState(state => {
@@ -13,11 +14,20 @@ add1(){
     };
   });
 }
+
+makeFoo(){
+  let returnArr = [];
+  for(let i=0 ; i < this.state.count ; i++){
+    returnArr.push(<Foo key={i}/>);
+  }
+  return returnArr;
+}
   render(){
     return(
       <div>
         <p>Count: {this.state.count}</p>
         <button onClick={this.add1}></button>
+        {this.makeFoo()}
       </div>
     );
   }
